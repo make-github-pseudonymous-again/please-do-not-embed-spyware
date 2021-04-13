@@ -2,7 +2,13 @@
 
 :construction: THIS IS WIP :construction:
 
-> :point_up: When a slogan starts with "!" read it outloud and with enthusiasm. 
+> :mag: A "?" in a cell means I have been lazy and there is much left to
+> explore.
+
+> :trophy: I have awarded a "\*" to solutions that have proven easy to install.
+
+> :man_office_worker: When a slogan starts with "!" read it outloud and with enthusiasm.
+
 
 ## :bar_chart: Google Analytics
 
@@ -16,12 +22,12 @@
 
 ### Alternatives
 
-| Name | LEGAL | LICENSE | Server | Database | API | `Dockerfile` | Docker image | `docker-compose.yml` |
-| - | :-: | :-: | - | - | :-: | :-: | :-: | :-: |
-| [Ackee](https://ackee.electerious.com) | GDPR/CCPA/PECR (:warning: detailed mode requires scrutiny) | MIT | Node | MongoDB | GraphQL | :heavy_check_mark: | [`electerious/ackee`](https://hub.docker.com/r/electerious/ackee) | :heavy_check_mark: |
-| [Plausible](https://plausible.io) | GDPR/CCPA/PECR | AGPL/MIT | Elixir | PostgreSQL | Plain? (:warning: early-access beta) | :heavy_check_mark: | ? | ? |
-| [Matomo](https://matomo.org) | :warning: Requires consent prompt | GPL 3 | PHP | MySQL or MariaDB | ? | :x: | :x: | :x: |
-| [Simple Analytics](https://simpleanalytics.com) | GDPR/CCPA/PECR | :stop_sign: Proprietary | ? | ? | Plain? | :x: | :x: | :x: |
+| Name | Privacy | Source | Lang | DB | API | Docker |
+| ---- | :-----: | :----: | ---- | -- | :-: | :----: |
+| [Ackee](https://ackee.electerious.com)\* | GDPR / CCPA / PECR (:warning: detailed mode requires scrutiny) | MIT | Node | MongoDB | GraphQL | `Dockerfile`, `docker-compose.yml`, [`electerious/ackee`](https://hub.docker.com/r/electerious/ackee) |
+| [Plausible](https://plausible.io) | GDPR / CCPA / PECR | AGPL/MIT | Elixir | PostgreSQL | Plain? (:warning: early-access beta) | `Dockerfile`, ?, ? |
+| [Matomo](https://matomo.org) | :warning: Requires consent prompt | GPL 3 | PHP | MySQL, MariaDB | ? | :x: |
+| [Simple Analytics](https://simpleanalytics.com) | GDPR / CCPA / PECR | :stop_sign: Proprietary | ? | ? | Plain? | :x: |
 
 ### :link: Links
 
@@ -38,20 +44,20 @@
 > through our Sponsored Story unit. The Sponsored Story fills the space between
 > a site’s content and our commenting software, putting your native ads
 > directly in front of the Internet’s most engaged audiences: dedicated readers
-> and active commenters. 
+> and active commenters.
 
 ### Alternatives
 
-| Name | LEGAL | Source | Server | DB | `Dockerfile` | Docker image | `docker-compose` | Distro | User AUTH |
-| - | :-: | - | - | - | :-: | :-: | :-: | - | - |
-| [Talkyard](https://github.com/debiki/talkyard) | ? | AGPL | Scala | PostgreSQL, Redis, ElasticSearch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | ? | ? |
-| [coral/talk](https://github.com/coralproject/talk) | GDPR | Apache v2 | Node | MongoDB | :heavy_check_mark: | ? | :heavy_check_mark: | ? | ? |
-| [Isso](https://github.com/posativ/isso) | ? | MIT | Python | SQLite | :x: | :x: | :x: | AUR | ? |
-| [Schnack](https://github.com/schn4ck/schnack) | ? | Lil | Node | SQLite | :heavy_check_mark: | :x: | :x: | ? | Mastodon, GitHub, Twitter, Google, Facebook |
-| [e-comments](https://github.com/skx/e-comments) (:warning:  last updated 3 years ago) | ? |? | Ruby | Redis, SQLite | ? | ? | ? | ? | ? |
-| [glosa](https://github.com/glosa/glosa-server) | ? | ? | Clojure | JSON | ? | ? | ? | ? | ? |
-| [mouthful](https://github.com/vkuznecovas/mouthful) | ? | MIT | Go | SQLite, MySQL, PostgreSQL, DynamoDB | :heavy_check_mark: | ? | ? | ? | ? |
-| [YoYo](https://github.com/metrue/YoYo) | ? | MIT | Node | ? | ? | ? | ? | ? | ? |
+| Name | Privacy | License | Lang | DB | API | Docker | User AUTH |
+| ---- | :-----: | :-----: | ---- | -- | --- | :----: | --------- |
+| [Talkyard](https://github.com/debiki/talkyard) (:elephant: Much more than just comments?) | ? | AGPL | Scala | PostgreSQL / Redis / ElasticSearch | ? | `Dockerfile`, `docker-compose.yml`, a multitude of available Docker images | ? |
+| [coral/talk](https://github.com/coralproject/talk)\* | GDPR | Apache | Node | MongoDB | ? |`Dockerfile`, [`docker-compose.yml`](https://docs.coralproject.net/coral), [`coralproject/talk`](https://hub.docker.com/r/coralproject/tal) | ? |
+| [Isso](https://github.com/posativ/isso) | ? | MIT | Python | SQLite | ? | :x: | ? |
+| [Schnack](https://github.com/schn4ck/schnack) | ? | Lil | Node | SQLite | ? | `Dockerfile` | Mastodon, GitHub, Twitter, Google, Facebook |
+| [e-comments](https://github.com/skx/e-comments) (:warning:  last updated 3 years ago) | ? |? | Ruby | Redis, SQLite | ? | ? | ? |
+| [glosa](https://github.com/glosa/glosa-server) | ? | ? | Clojure | JSON | ? | ? | ? |
+| [mouthful](https://github.com/vkuznecovas/mouthful) | ? | MIT | Go | SQLite, MySQL, PostgreSQL, DynamoDB | ? | `Dockerfile`, ?, ? | ? |
+| [YoYo](https://github.com/metrue/YoYo) | ? | MIT | Node | ? | ? | ? | ? |
 
 ## :symbols: Google Fonts
 
