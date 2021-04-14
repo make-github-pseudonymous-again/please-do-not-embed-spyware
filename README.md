@@ -51,7 +51,7 @@
 | Name | Privacy | License | Lang | DB | API | Docker | User AUTH |
 | ---- | :-----: | :-----: | ---- | -- | --- | :----: | --------- |
 | [Talkyard](https://github.com/debiki/talkyard) (:elephant: Much more than just comments?) | ? | AGPL | Scala | PostgreSQL / Redis / ElasticSearch | ? | `Dockerfile`, `docker-compose.yml`, a multitude of available Docker images | ? |
-| [coral/talk](https://github.com/coralproject/talk)\* | GDPR | Apache | Node | MongoDB | ? |`Dockerfile`, [`docker-compose.yml`](https://docs.coralproject.net/coral), [`coralproject/talk`](https://hub.docker.com/r/coralproject/tal) | ? |
+| [coral/talk](https://github.com/coralproject/talk)\* | GDPR | Apache | Node | MongoDB | GraphQL |`Dockerfile`, [`docker-compose.yml`](https://docs.coralproject.net/coral), [`coralproject/talk`](https://hub.docker.com/r/coralproject/tal) | ? |
 | [Isso](https://github.com/posativ/isso) | ? | MIT | Python | SQLite | ? | :x: | ? |
 | [Schnack](https://github.com/schn4ck/schnack) | ? | Lil | Node | SQLite | ? | `Dockerfile` | Mastodon, GitHub, Twitter, Google, Facebook |
 | [e-comments](https://github.com/skx/e-comments) (:warning:  last updated 3 years ago) | ? |? | Ruby | Redis, SQLite | ? | ? | ? |
