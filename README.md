@@ -25,6 +25,7 @@
 | Name | Privacy | Source | Lang | DB | API | Docker |
 | ---- | :-----: | :----: | ---- | -- | :-: | :----: |
 | [Ackee](https://ackee.electerious.com)\* | GDPR / CCPA / PECR (:warning: detailed mode requires scrutiny) | MIT | Node | MongoDB | GraphQL | `Dockerfile`, `docker-compose.yml`, [`electerious/ackee`](https://hub.docker.com/r/electerious/ackee) |
+| [Umami](https://umami.is) | GDPR | MIT | Node | PostgreSQL, MySQL | HTTP/JSON? | `Dockerfile`, `docker-compose.yml`, pre-built images available |
 | [Plausible](https://plausible.io) | GDPR / CCPA / PECR | AGPL/MIT | Elixir | PostgreSQL | Plain? (:warning: early-access beta) | `Dockerfile`, ?, ? |
 | [Matomo](https://matomo.org) | :warning: Requires consent prompt | GPL 3 | PHP | MySQL, MariaDB | ? | :x: |
 | [Simple Analytics](https://simpleanalytics.com) | GDPR / CCPA / PECR | :stop_sign: Proprietary | ? | ? | Plain? | :x: |
